@@ -3,7 +3,6 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { setOtherUsers } from "../redux/userSlice";
 
-
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 const useGetOtherUsers = () => {
