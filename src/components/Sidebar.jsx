@@ -11,7 +11,8 @@ import {
   setSelectedUser,
 } from "../redux/userSlice";
 import { setMessages } from "../redux/messageSlice";
-import { BASE_URL } from "..";
+
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 const Sidebar = () => {
   const [search, setSearch] = useState("");
